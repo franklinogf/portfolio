@@ -6,7 +6,7 @@
       "@components/*": ["src/components/*"],
       "@layouts/*": ["src/layouts/*"],
       "@icons/*": ["src/icons/*"],
-      "@sections/*": ["src/sections/*"]
+      "@sections/*": ["src/components/sections/*"]
     },
     "verbatimModuleSyntax": true
   }
