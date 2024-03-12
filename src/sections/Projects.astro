@@ -12,6 +12,6 @@ const { projects } = portfolio
   <Title class='text-center mb-10'>Projects</Title>
 
   <div class='grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-5'>
-    {projects.map(({ name }) => <Project title={name} />)}
+    {projects.map((project) => <Project {...project} />)}
   </div>
 </section>
