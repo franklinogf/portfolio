@@ -1,3 +1,8 @@
+---
+import portfolio from '../data/portfolio'
+const { footer_description } = portfolio
+---
+
 <footer
   id='contact'
   class='bg-slate-800 py-10'
@@ -5,9 +10,7 @@
   <div class='max-w-xl mx-auto'>
     <h2 class='font-bold text-2xl mb-5'>Contact</h2>
     <p class='text-pretty text-sm'>
-      Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing
-      and implementing robust, scalable, and innovative web solutions. Adept at leveraging a
-      comprehensive skill set encompassing front-end and back-end technologies
+      {footer_description}
     </p>
   </div>
 </footer>
