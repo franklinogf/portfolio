@@ -19,4 +19,5 @@ export interface Portfolio {
   description: string
   projects: Project[]
   experiences: Experience[]
+  footer_description: string
 }
