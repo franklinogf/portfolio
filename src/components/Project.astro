@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets'
+
 interface Props {
   title: string
 }
@@ -6,10 +8,13 @@ const { title } = Astro.props
 ---
 
 <article class='bg-slate-800 rounded'>
-  <img
-    class='rounded-t'
+  <Image
+    class='rounded-t-lg'
     src={`http://fakeimg.pl/800x460?text=${title}&font=museo`}
     alt='Projecto 1'
+    width='400'
+    height='250'
+    loading='lazy'
   />
   <footer class='p-2'>
     <h2>{title}</h2>
