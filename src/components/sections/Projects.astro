@@ -10,10 +10,13 @@ const projects = [
 ]
 ---
 
-<section class='mt-20 px-2'>
-  <Title class='text-center'>Projects</Title>
+<section
+  id='projects'
+  class='mt-20 px-2'
+>
+  <Title class='text-center mb-10'>Projects</Title>
 
-  <div class='grid grid-cols-1 sm:grid-cols-2 mt-10 gap-x-2 gap-y-5'>
+  <div class='grid grid-cols-1 sm:grid-cols-2 gap-x-2 gap-y-5'>
     {projects.map(({ title }) => <Project title={title} />)}
   </div>
 </section>
