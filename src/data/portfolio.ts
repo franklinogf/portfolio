@@ -13,7 +13,7 @@ const portfolio: Portfolio = {
     }
   ],
   projects: [
-    { name: 'Project 1', image_url: 'http://fakeimg.pl/800x460?text=Project 1&font=museo' },
+    { name: 'Rent car', image_url: '/images/projects/rent-car.png' },
     { name: 'Project 2', image_url: 'http://fakeimg.pl/800x460?text=Project 2&font=museo' },
     { name: 'Project 3', image_url: 'http://fakeimg.pl/800x460?text=Project 3&font=museo' },
     { name: 'Project 4', image_url: 'http://fakeimg.pl/800x460?text=Project 4&font=museo' }

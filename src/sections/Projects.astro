@@ -21,18 +21,21 @@ const { projects } = portfolio
               <div class='atropos-rotate'>
                 <div class='atropos-inner'>
                   <article
-                    class='bg-slate-800 rounded'
+                    class='bg-slate-800 rounded h-full'
                     data-atropos-offset='-2'
                   >
-                    <Image
-                      data-atropos-offset='-1.5'
-                      class='rounded-t'
-                      src={image_url}
-                      alt={name}
-                      width='800'
-                      height='460'
-                      loading='lazy'
-                    />
+                    <header class='h-52 overflow-hidden'>
+                      <Image
+                        data-atropos-offset='-1.5'
+                        class='rounded-t'
+                        src={image_url}
+                        alt={name}
+                        width='1920'
+                        height='1280'
+                        loading='eager'
+                      />
+                    </header>
+
                     <footer class='p-2'>
                       <h2 data-atropos-offset='3'>{name}</h2>
                     </footer>
