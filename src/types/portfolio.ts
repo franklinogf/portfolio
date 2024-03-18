@@ -1,6 +1,6 @@
 type Date4Numbers = `${number}${number}${number}${number}`
 type Date2Numbers = `${number}${number}`
-type Date = `${Date4Numbers}-${Date2Numbers}-${Date2Numbers}`
+type Date = `${Date4Numbers}-${Date2Numbers}`
 
 export interface Experience {
   name: Capitalize<string>
