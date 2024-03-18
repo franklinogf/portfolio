@@ -1,5 +1,7 @@
 ---
 import Button from '@components/Button.astro'
+import portfolio from '../data/portfolio'
+const { name, description, title } = portfolio
 ---
 
 <section
@@ -7,12 +9,10 @@ import Button from '@components/Button.astro'
   class='text-center mt-20'
 >
   <div class='space-y-5'>
-    <h1 class='text-4xl font-bold text-balance'>Franklin Omar González Flores</h1>
-    <h2 class='text-4xl font-bold text-balance'>I do code and make content about it!</h2>
+    <h1 class='text-5xl font-bold text-balance'>{name}</h1>
+    <h2 class='text-3xl font-bold text-balance max-w-lg mx-auto'>{title}</h2>
     <p class='text-sm font-light text-slate-300 text-pretty max-w-lg mx-auto'>
-      I am a seasoned full-stack software engineer with over 8 years of professional experience,
-      specializing in backend development. My expertise lies in crafting robust and scalable
-      SaaS-based architectures on the Amazon AWS platform.
+      {description}
     </p>
   </div>
   <div class='space-x-5 mt-10'>
