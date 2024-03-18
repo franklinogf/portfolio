@@ -10,10 +10,15 @@ const portfolio: Portfolio = {
     `,
   experiences: [
     {
-      name: 'SchoolSoft',
+      name: 'SchoolSoftPR',
       startDate: '2019-01',
-      description:
-        'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.'
+      descriptions: [
+        'Development of diverse schools web projects.',
+        'Designed and implemented intuitive user interfaces using HTML, CSS, and JavaScript.',
+        'Verified the functioning of pages and applications by testing features after uploads.',
+        'Database management (MySQL)',
+        'Troubleshoot problems and develop successful solutions.'
+      ]
     }
   ],
   projects: [
