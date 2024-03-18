@@ -1,11 +1,8 @@
 ---
-interface Props {
-  name: string
-  startDate: string
-  endDate?: string
-  description: string
-}
-const { name, startDate, endDate, description } = Astro.props
+import type { Experience } from 'src/types/portfolio'
+
+type Props = Experience
+const { name, startDate, endDate, descriptions } = Astro.props
 
 const dateFormat: Intl.DateTimeFormatOptions = {
   month: 'long',
@@ -35,6 +32,8 @@ const dates = endDate
     {dates}
   </time>
   <p class='mb-4 text-base font-normal text-gray-200'>
-    {description}
+    <ul>
+      {descriptions.map((description) => <li>- {description}</li>)}
+    </ul>
   </p>
 </li>
