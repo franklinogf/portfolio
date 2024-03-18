@@ -2,12 +2,16 @@ import { type Portfolio } from 'src/types/portfolio'
 const portfolio: Portfolio = {
   name: 'Franklin Omar González Flores',
   title: 'I do code and make content about it!',
-  description:
-    'I am a seasoned full-stack software engineer with over 8 years of professional experience, specializing in backend development. My expertise lies in crafting robust and scalable SaaS-based architectures on the Amazon AWS platform.',
+  description: `Dynamic and innovative Full Stack Web Developer with +5 years of experience Delivering consistent and
+    professional work for every assignment. Adapts quickly to new needs and policies. Focused on helping the business
+    achieve short- and long-term goals. Proficient in both front-end and back-end technologies. Skilled in HTML, CSS,
+    JavaScript, PHP , and proficient in frameworks such as React for front-end development, and Laravel for back-end.
+    coupled with database management using SQL and NoSQL solutions.
+    `,
   experiences: [
     {
       name: 'SchoolSoft',
-      startDate: '2019-01-09',
+      startDate: '2019-01',
       description:
         'Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.'
     }
