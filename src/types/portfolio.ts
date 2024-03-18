@@ -6,7 +6,7 @@ export interface Experience {
   name: Capitalize<string>
   startDate: Date
   endDate?: Date
-  description: Capitalize<string>
+  descriptions: Capitalize<string>[]
 }
 export interface Project {
   name: Capitalize<string>
