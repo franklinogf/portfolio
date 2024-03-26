@@ -7,16 +7,16 @@ const { name, description, title } = portfolio
 
 <section
   id='home'
-  class='text-center mt-20'
+  class='mt-20'
 >
   <div class='space-y-5'>
-    <h1 class='text-5xl font-bold text-balance'>{name}</h1>
-    <h2 class='text-3xl font-bold text-balance max-w-lg mx-auto'>{title}</h2>
+    <h1 class='text-5xl text-center font-bold text-balance'>{name}</h1>
+    <h2 class='text-3xl text-center font-bold text-balance max-w-lg mx-auto'>{title}</h2>
     <p class='text-sm font-light text-slate-300 text-pretty max-w-lg mx-auto'>
       {description}
     </p>
   </div>
-  <div class='space-x-5 mt-10'>
+  <div class='flex justify-center gap-x-5 mt-10'>
     <Link
       href='/#contact'
       variant='secondary'
