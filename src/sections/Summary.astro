@@ -1,6 +1,7 @@
 ---
 import Button from '@components/Button.astro'
 import portfolio from '../data/portfolio'
+import Link from '@components/Link.astro'
 const { name, description, title } = portfolio
 ---
 
@@ -16,7 +17,11 @@ const { name, description, title } = portfolio
     </p>
   </div>
   <div class='space-x-5 mt-10'>
-    <Button>Get in touch</Button>
-    <Button variant='secondary'>Download CV</Button>
+    <Link
+      href='/#contact'
+      variant='secondary'
+      >Get in touch</Link
+    >
+    <Button>Download CV</Button>
   </div>
 </section>
