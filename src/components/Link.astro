@@ -1,0 +1,25 @@
+---
+import type { HTMLAttributes } from 'astro/types'
+type Variant = 'primary' | 'secondary'
+type ColorVariant = Record<Variant, string>
+interface Props extends HTMLAttributes<'a'> {
+  class?: string
+  variant?: Variant
+}
+
+const { class: className, variant = 'primary', ...props } = Astro.props
+const colorVariant: ColorVariant = {
+  primary: 'text-black bg-slate-100 hover:bg-slate-200/80',
+  secondary: 'text-white bg-slate-800 hover:bg-slate-900 ring-1 ring-white'
+}
+---
+
+<a
+  class:list={[
+    ' px-3 py-1.5 rounded-3xl font-semibold text-sm min-w-28 transition-colors',
+    colorVariant[variant],
+    className
+  ]}
+  {...props}
+  ><slot /></a
+>
