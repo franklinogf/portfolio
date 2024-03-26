@@ -22,10 +22,9 @@ const portfolio: Portfolio = {
     }
   ],
   projects: [
-    { name: 'Rent car', image_url: '/images/projects/rent-car.png' },
-    { name: 'Project 2', image_url: 'http://fakeimg.pl/800x460?text=Project 2&font=museo' },
-    { name: 'Project 3', image_url: 'http://fakeimg.pl/800x460?text=Project 3&font=museo' },
-    { name: 'Project 4', image_url: 'http://fakeimg.pl/800x460?text=Project 4&font=museo' }
+    { name: 'Rent car', image_url: '/images/projects/rent-car.webp' },
+    { name: 'Hotel Kursaal Salsomagiore', image_url: '/images/projects/hotelkursaalsalso.webp' },
+    { name: 'Schoolsoft', image_url: '/images/projects/schoolsoftpr.webp' }
   ],
   footer_description:
     'Seasoned Full Stack Software Engineer with over 8 years of hands-on experience in designing and implementing robust, scalable, and innovative web solutions. Adept at leveraging a comprehensive skill set encompassing front-end and back-end technologies'
