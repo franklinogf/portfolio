@@ -2,8 +2,8 @@ import { type Portfolio } from 'src/types/portfolio'
 const portfolio: Portfolio = {
   name: 'Franklin Omar González Flores',
   title: 'I do code and make content about it!',
-  description: `Dynamic and innovative Full Stack Web Developer with +5 years of experience Delivering consistent and
-    professional work for every assignment. Adapts quickly to new needs and policies. Focused on helping the business
+  description: `<span class="text-blue-400">Dynamic</span> and innovative Full Stack Web Developer with +5 years of experience Delivering consistent and
+    professional work for every assignment. Adapts quickly to new needs and policies. <span class="text-blue-400">Focused</span> on helping the business
     achieve short- and long-term goals. Proficient in both front-end and back-end technologies. Skilled in HTML, CSS,
     JavaScript, PHP , and proficient in frameworks such as React for front-end development, and Laravel for back-end.
     coupled with database management using SQL and NoSQL solutions.

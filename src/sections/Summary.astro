@@ -11,10 +11,13 @@ const { name, description, title } = portfolio
 >
   <div class='space-y-5'>
     <h1 class='text-5xl text-center font-bold text-balance'>{name}</h1>
-    <h2 class='text-3xl text-center font-bold text-balance max-w-lg mx-auto'>{title}</h2>
-    <p class='text-sm font-light text-slate-300 text-pretty max-w-lg mx-auto'>
-      {description}
-    </p>
+    <h2 class='text-3xl text-center font-bold text-balance max-w-lg mx-auto'>
+      {title}
+    </h2>
+    <p
+      class='text-sm font-light text-slate-300 text-pretty max-w-lg mx-auto'
+      set:html={description}
+    />
   </div>
   <div class='flex justify-center gap-x-5 mt-10'>
     <Link
